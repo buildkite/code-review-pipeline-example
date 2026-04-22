@@ -10,6 +10,7 @@ env:
 
 steps:
   - label: ":node: Generate the pipeline"
+    depends_on: ~
     command: |
 
       if [[ "${BUILDKITE_SOURCE:-}" != "webhook" || -z "${BUILDKITE_TRIGGER_ID:-}" ]]; then
