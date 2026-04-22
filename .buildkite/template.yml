@@ -1,6 +1,7 @@
 name: "Code Review Pipeline Example"
 description: "An example pipeline that uses dynamic pipelines and Claude Code to automatically review GitHub pull requests."
 emoji: ":mag:"
+color: "#DBEAFE"
 languages:
   - "TypeScript"
 steps:
