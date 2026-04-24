@@ -70,6 +70,10 @@ To run this yourself, you'll need:
 
 <!-- docs:end -->
 
+## Known limitations
+
+- The handler assumes the Buildkite org slug and pipeline slug match the GitHub org and repo name. This won't always be the case — you may need to configure these separately.
+
 ## Credits
 
 Originally built by [Grant Colegate](https://github.com/grantc) and [Christian Nunciato](https://github.com/cnunciato) as a demo for AWS re:Invent.
